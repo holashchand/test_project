@@ -1,0 +1,26 @@
+{
+"@context": [
+"https://www.w3.org/ns/did/v1",
+"https://w3id.org/security/suites/jws-2020/v1"
+],
+"id": "did:web:holashchand.github.io:test_project",
+"verificationMethod": [
+{
+  "id": "did:web:holashchand.github.io:test_project#key-0",
+  "type": "Ed25519VerificationKey2020",
+  "controller": "",
+  "revoked": "",
+  "publicKeyMultibase": "z6MkfNwDNbt2ujMwDn42kTRjg9VS5n2ZNYonFL9WeDkGjCTq",
+  "privateKeyMultibase": "zrv4ypECWZTMUKjB2u7CSWcrtWiUpvr6m8ZnK56WybEYUze6HsB29Tfsg3Cbxh2i2a1maX7NZo2y1YC9Qgzery9C327"
+}
+],
+"authentication": [
+"did:web:holashchand.github.io:test_project#key-0"
+],
+"assertionMethod": [
+"did:web:holashchand.github.io:test_project#key-0"
+],
+"keyAgreement": [
+"did:web:holashchand.github.io:test_project#key-0"
+]
+}
