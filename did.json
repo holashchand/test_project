@@ -16,7 +16,12 @@
 "did:web:holashchand.github.io:test_project#key-0"
 ],
 "assertionMethod": [
-"did:web:holashchand.github.io:test_project#key-0"
+{
+  "id": "did:web:holashchand.github.io:test_project#key-0",
+  "type": "Ed25519VerificationKey2020",
+  "controller": "did:web:holashchand.github.io:test_project",
+  "publicKeyMultibase": "z6MkfNwDNbt2ujMwDn42kTRjg9VS5n2ZNYonFL9WeDkGjCTq"
+}
 ],
 "keyAgreement": [
 "did:web:holashchand.github.io:test_project#key-0"
