@@ -8,10 +8,8 @@
 {
   "id": "did:web:holashchand.github.io:test_project#key-0",
   "type": "Ed25519VerificationKey2020",
-  "controller": "",
-  "revoked": "",
-  "publicKeyMultibase": "z6MkfNwDNbt2ujMwDn42kTRjg9VS5n2ZNYonFL9WeDkGjCTq",
-  "privateKeyMultibase": "zrv4ypECWZTMUKjB2u7CSWcrtWiUpvr6m8ZnK56WybEYUze6HsB29Tfsg3Cbxh2i2a1maX7NZo2y1YC9Qgzery9C327"
+  "controller": "did:web:holashchand.github.io:test_project",
+  "publicKeyMultibase": "z6MkfNwDNbt2ujMwDn42kTRjg9VS5n2ZNYonFL9WeDkGjCTq"
 }
 ],
 "authentication": [
