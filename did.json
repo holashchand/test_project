@@ -5,19 +5,7 @@
             "testUUID",
             "test@gmail.com"
         ],
-        "service": [
-            {
-                "id": "IdentityHub",
-                "type": "IdentityHub",
-                "serviceEndpoint": {
-                    "@context": "schema.identity.foundation/hub",
-                    "@type": "UserServiceEndpoint",
-                    "instance": [
-                        "did:test:hub.id"
-                    ]
-                }
-            }
-        ],
+        "service": [],
         "verificationMethod": [
             {
                 "id": "did:web:holashchand.github.io:test_project#auth-key",
