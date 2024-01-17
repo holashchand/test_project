@@ -21,7 +21,7 @@
         "verificationMethod": [
             {
                 "id": "auth-key",
-                "type": "Ed25519",
+                "type": "Ed25519VerificationKey2018",
                 "publicKeyJwk": {
                     "crv": "Ed25519",
                     "x": "TU037BtbdNXimsLuXaZVUfx2JnppHMl60FZIl1XBbkM",
