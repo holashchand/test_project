@@ -24,7 +24,7 @@
                 "type": "Ed25519",
                 "publicKeyJwk": {
                     "crv": "Ed25519",
-                    "x": "D5q3z6EfBZeD2Aq6wBnUFIiFWp0bwDzj5Q3ELX3PKs8",
+                    "x": "TU037BtbdNXimsLuXaZVUfx2JnppHMl60FZIl1XBbkM",
                     "kty": "OKP"
                 },
                 "controller": "did:web:holashchand.github.io:test_project"
