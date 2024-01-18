@@ -8,6 +8,11 @@
                 "id": "did:web:holashchand.github.io:test_project#auth-key",
                 "type": "Ed25519VerificationKey2018",
                 "publicKeyBase58": "HfJjXLKDjSDTPdU7XPDMrRviemDvsfVTZWSdPaz4JfQ9",
+                    "publicKeyJwk": {
+                    "kty": "OKP",
+                    "crv": "Ed25519",
+                    "x": "94sczV2bGi8oqP0H6NQSKqONEFe__vKGBPLvEKCw5E4"
+                },
                 "controller": "did:web:holashchand.github.io:test_project"
             }
         ],
