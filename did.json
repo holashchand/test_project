@@ -18,6 +18,9 @@
                 "controller": "did:web:holashchand.github.io:test_project"
             }
         ],
+        "assertionMethod": [
+            "did:web:holashchand.github.io:test_project#auth-key"
+        ],
         "authentication": [
             "did:web:holashchand.github.io:test_project#auth-key"
         ]
