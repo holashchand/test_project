@@ -1,24 +1,17 @@
 {
         "@context": "https://w3id.org/did/v1",
         "id": "did:web:holashchand.github.io:test_project",
-        "alsoKnownAs": [
-            "testUUID",
-            "test@gmail.com"
-        ],
+        "alsoKnownAs": [],
         "service": [],
         "verificationMethod": [
             {
                 "id": "did:web:holashchand.github.io:test_project#auth-key",
                 "type": "Ed25519VerificationKey2018",
-                "publicKeyJwk": {
-                    "crv": "Ed25519",
-                    "x": "TU037BtbdNXimsLuXaZVUfx2JnppHMl60FZIl1XBbkM",
-                    "kty": "OKP"
-                },
+                "publicKeyBase58": "HfJjXLKDjSDTPdU7XPDMrRviemDvsfVTZWSdPaz4JfQ9",
                 "controller": "did:web:holashchand.github.io:test_project"
             }
         ],
-        "assertionMethod": [
+    "assertionMethod": [
             "did:web:holashchand.github.io:test_project#auth-key"
         ],
         "authentication": [
