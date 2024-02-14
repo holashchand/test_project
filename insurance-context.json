@@ -2,11 +2,11 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "id": "@id",
+    "id": {"@id": "@id", "@protected": false},
     "type": "@type",
     "schema": "https://schema.org/",
     "InsuranceCredential": {
-      "@id": "schema:Text"
+      "@id": "https://holashchand.github.io/test_project/insurance-context.json#InsuranceCredential"
     },
     "dob": "schema:birthDate",
     "email": "schema:email",
