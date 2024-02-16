@@ -1,27 +1,23 @@
 {
-  "@context": [
-    "https://w3id.org/did/v1"
-  ],
-  "id": "did:web:holashchand.github.io:test_project",
-  "alsoKnownAs": [],
-  "service": [],
-  "verificationMethod": [
-    {
-      "id": "did:web:holashchand.github.io:test_project#auth-key",
-      "type": "Ed25519VerificationKey2018",
-      "publicKeyBase58": "HfJjXLKDjSDTPdU7XPDMrRviemDvsfVTZWSdPaz4JfQ9",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "x": "94sczV2bGi8oqP0H6NQSKqONEFe__vKGBPLvEKCw5E4"
-      },
-      "controller": "did:web:holashchand.github.io:test_project"
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:holashchand.github.io:test_project",
+        "alsoKnownAs": [],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:holashchand.github.io:test_project#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:holashchand.github.io:test_project",
+                "publicKeyMultibase": "z6MktWVB21YFPrCiRxLYGzxceFQ4zsZn13YjwGoybm4rBbB9"
+            }
+        ],
+        "authentication": [
+            "did:web:holashchand.github.io:test_project#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:holashchand.github.io:test_project#key-0"
+        ]
     }
-  ],
-  "assertionMethod": [
-    "did:web:holashchand.github.io:test_project#auth-key"
-  ],
-  "authentication": [
-    "did:web:holashchand.github.io:test_project#auth-key"
-  ]
-}
