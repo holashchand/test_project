@@ -2,7 +2,7 @@
                 "@context": {
                     "@version": 1.1,
                     "@protected": true,
-                    "id": {"@id": "@id", "@protected": false},
+                    "id": "@id",
                     "type": "@type",
                     "schema": "https://schema.org/",
                     "FarmerCredential": {
