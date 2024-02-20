@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "BirthCertificateV7": {
+      "@id": "https://holashchand.github.io/test_project/birth-context.json#BirthCertificateV7"
+    },
+    "name": "schema:name",
+    "gender": "schema:gender"
+  }
+}
+
