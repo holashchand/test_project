@@ -1,0 +1,20 @@
+{
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": {"@id": "@id", "@protected": false},
+                    "type": "@type",
+                    "schema": "https://schema.org/",
+                    "FarmerCredential": {
+      "@id": "https://holashchand.github.io/test_project/insurance-context.json#InsuranceCredential"
+    },
+                    "farmer_id": "schema:Text",
+                    "name": "schema:name",
+                    "dob": "schema:birthDate",
+                    "gender": "schema:gender",
+                    "village_name": "schema:Text",
+                    "sub-district_name": "schema:Text",
+                    "district_name": "schema:Text",
+                    "state_name": "schema:Text"
+                }
+            }
