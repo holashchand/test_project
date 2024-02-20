@@ -6,7 +6,7 @@
                     "type": "@type",
                     "schema": "https://schema.org/",
                     "FarmerCredential": {
-      "@id": "https://holashchand.github.io/test_project/insurance-context.json#InsuranceCredential"
+      "@id": "https://holashchand.github.io/test_project/farmer-context.json#InsuranceCredential"
     },
                     "farmer_id": "schema:Text",
                     "name": "schema:name",
