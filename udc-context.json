@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "UniversityDegreeCredential": {
+            "@id": "https://holashchand.github.io/test_project/udc-context.json#UniversityDegreeCredential",
+        },
+        "grade": "schema:Text",
+        "programme": "schema:Text",
+        "certifyingInstitute": "schema:Text",
+        "evaluatingInstitute": "schema:Text"
+    }
+}
