@@ -1,4 +1,5 @@
 {
+  "@context": {
 "id": "@id",
 "schema": "https://schema.org/",
 "@version": 1.1,
@@ -45,6 +46,7 @@
 "registration_number": "schema:identifier",
 "date_of_registration": "schema:startDate",
 "date_of_issuance": "schema:startDate"
+}
 }
 }
 }
