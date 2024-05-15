@@ -14,7 +14,6 @@
 },
 "child": {
 "@id": "citizen:child",
-"@type": "@id",
 "@context": {
 "id": "@id",
 "full_name": "schema:name",
