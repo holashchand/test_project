@@ -3,6 +3,7 @@
 "schema": "https://schema.org/",
 "@version": 1.1,
 "@protected": true,
+"citizen": "https://holashchand.github.io/test_project/citizen_context.json",
 "CitizenshipCredential": {
 "@id": "https://holashchand.github.io/test_project/citizen_context.json#CitizenshipCredential",
 "@context": {
@@ -12,7 +13,7 @@
 }
 },
 "child": {
-"@id": "schema:child",
+"@id": "citizen:child",
 "@type": "@id",
 "@context": {
 "id": "@id",
@@ -24,7 +25,7 @@
 }
 },
 "mother": {
-"@id": "schema:mother",
+"@id": "citizen:mother",
 "@context": {
 "id": "@id",
 "full_name": "schema:name",
@@ -33,7 +34,7 @@
 }
 },
 "father": {
-"@id": "schema:father",
+"@id": "citizen:father",
 "@context": {
 "id": "@id",
 "full_name": "schema:name",
@@ -42,7 +43,7 @@
 }
 },
 "registration": {
-"@id": "schema:registration",
+"@id": "citizen:registration",
 "@context": {
 "id": "@id",
 "registration_number": "schema:identifier",
