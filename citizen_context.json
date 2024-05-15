@@ -15,7 +15,6 @@
 "child": {
 "@id": "citizen:child",
 "@context": {
-"id": "@id",
 "full_name": "schema:name",
 "dob": "schema:birthDate",
 "sex": "schema:gender",
@@ -26,7 +25,6 @@
 "mother": {
 "@id": "citizen:mother",
 "@context": {
-"id": "@id",
 "full_name": "schema:name",
 "dob": "schema:birthDate",
 "nationality": "schema:nationality"
@@ -44,7 +42,6 @@
 "registration": {
 "@id": "citizen:registration",
 "@context": {
-"id": "@id",
 "registration_number": "schema:identifier",
 "date_of_registration": "schema:startDate",
 "date_of_issuance": "schema:startDate"
