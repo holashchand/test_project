@@ -3,7 +3,6 @@
                 "id": "@id",
                 "child": {
                     "@id": "schema:child",
-                    "@type": "@id",
                     "@context": {
                         "id": "@id",
                         "dob": "schema:birthDate",
