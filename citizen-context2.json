@@ -1,0 +1,55 @@
+{
+"@context": {
+                "id": "@id",
+                "child": {
+                    "@id": "schema:child",
+                    "@type": "@id",
+                    "@context": {
+                        "id": "@id",
+                        "dob": "schema:birthDate",
+                        "sex": "schema:gender",
+                        "full_name": "schema:name",
+                        "nationality": "schema:nationality",
+                        "place_of_birth": "schema:birthPlace"
+                    }
+                },
+                "father": {
+                    "@id": "schema:father",
+                    "@context": {
+                        "id": "@id",
+                        "dob": "schema:birthDate",
+                        "full_name": "schema:name",
+                        "nationality": "schema:nationality"
+                    }
+                },
+                "mother": {
+                    "@id": "schema:mother",
+                    "@context": {
+                        "id": "@id",
+                        "dob": "schema:birthDate",
+                        "full_name": "schema:name",
+                        "nationality": "schema:nationality"
+                    }
+                },
+                "schema": "https://schema.org/",
+                "@version": 1.1,
+                "@protected": true,
+                "registration": {
+                    "@id": "schema:registration",
+                    "@context": {
+                        "id": "@id",
+                        "date_of_issuance": "schema:startDate",
+                        "registration_number": "schema:identifier",
+                        "date_of_registration": "schema:startDate"
+                    }
+                },
+                "CitizenshipCredential": {
+                    "@id": "@id",
+                    "@context": {
+                        "id": "@id",
+                        "@version": 1.1,
+                        "@protected": true
+                    }
+                }
+            }
+}
