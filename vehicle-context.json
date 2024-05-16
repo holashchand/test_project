@@ -19,6 +19,9 @@
   "chasisNumber": "schema:Text",
   "cubicCapacity": "schema:Text",
   "registrationNumber": "schema:Text",
+  "ownerName": "schema:Text",
+  "ownerDateOfBirth": "schema:birthDate",
+  "engineNumber": "schema:Text",
 "policyNumber": "schema:Text"
 }
 }
