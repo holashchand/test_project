@@ -1,0 +1,24 @@
+{
+"@context": {
+"@version": 1.1,
+"@protected": true,
+"type": "@type",
+"schema": "https://schema.org/",
+"VehicleCredential": {
+"@id": "https://holashchand.github.io/test_project/vehicle-context.json#VehicleCredential"
+},
+"email": "schema:email",
+"mobile": "schema:telephone",
+"policyExpiresOn": "schema:expires",
+"policyIssuedOn": "schema:DateTime",
+"invoiceNumber": "schema:Text",
+"registrationAuthority": "schema:Text",
+  "IDV": "schema:Number",
+  "model": "schema:Text",
+  "typeOfBody": "schema:Text",
+  "chasisNumber": "schema:Text",
+  "cubicCapacity": "schema:Text",
+  "registrationNumber": "schema:Text",
+"policyNumber": "schema:Text"
+}
+}
