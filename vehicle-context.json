@@ -13,14 +13,14 @@
 "policyIssuedOn": "schema:DateTime",
 "invoiceNumber": "schema:Text",
 "registrationAuthority": "schema:Text",
-  "IDV": "schema:Number",
+  "IDV": "schema:Text",
   "model": "schema:Text",
   "typeOfBody": "schema:Text",
   "chasisNumber": "schema:Text",
   "cubicCapacity": "schema:Text",
   "registrationNumber": "schema:Text",
-  "ownerName": "schema:Text",
-  "ownerDateOfBirth": "schema:birthDate",
+  "fullName": "schema:Text",
+  "dob": "schema:birthDate",
   "engineNumber": "schema:Text",
 "policyNumber": "schema:Text"
 }
