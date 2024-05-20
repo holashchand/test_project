@@ -1,0 +1,36 @@
+{
+"@context": {
+"@version": 1.1,
+"@protected": true,
+"id": "@id",
+"type": "@type",
+"schema": "https://schema.org/",
+"InsuranceCredential": {
+"@id": "schema:InsuranceCredential",
+"@context": {
+"id": "@id",
+"@version": 1.1,
+"@protected": true
+}
+},
+"Person": {
+"@id": "schema:Person",
+"@context": {
+"@version": 1.1,
+"@protected": true,
+"policyNumber": "schema:name",
+"policyName": "schema:name",
+"fullName": "schema:name",
+"mobile": "schema:name",
+"email": "schema:name",
+"dob": "schema:name",
+"benefits": {
+"@id": "schema:name",
+"@type": "@id",
+"@container": "@list"
+},
+"gender": "schema:name"
+}
+}
+}
+}
