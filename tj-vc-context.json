@@ -18,18 +18,17 @@
 "@context": {
 "@version": 1.1,
 "@protected": true,
-"policyNumber": "schema:name",
+"policyNumber": "schema:identifier",
 "policyName": "schema:name",
 "fullName": "schema:name",
-"mobile": "schema:name",
-"email": "schema:name",
-"dob": "schema:name",
+"mobile": "schema:telephone",
+"email": "schema:email",
+"dob": "schema:birthDate",
 "benefits": {
-"@id": "schema:name",
-"@type": "@id",
+"@id": "schema:benefit",
 "@container": "@list"
 },
-"gender": "schema:name"
+"gender": "schema:gender"
 }
 }
 }
