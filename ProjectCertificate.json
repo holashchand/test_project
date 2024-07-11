@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "ProjectCertificate": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#ProjectCertificate",
+      "@context": {
+        "id": "@id",
+        "@version": 1.1,
+        "@protected": true,
+        "ProjectCertificate": "schema:Text"
+      }
+    },
+    "projectName": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#projectName",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "projectId": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#projectId",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "solutionName": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#solutionName",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "solutionId": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#solutionId",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "recipientName": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#recipientName",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "name": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#name",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "publicKey": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#publicKey",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "url": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#url",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "designation": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#designation",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "image": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#image",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "identity": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#identity",
+      "@context": {
+        "name": "schema:Text"
+      }
+    },
+    "templateUrl": {
+      "@id": "https://holashchand.github.io/test_project/ProjectCertificate.json#templateUrl",
+      "@context": {
+        "name": "schema:Text"
+      }
+    }
+  }
+}
