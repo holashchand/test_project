@@ -10,7 +10,7 @@ var globalConfigs = (function () {
   var digitHomeURL = "https://www.digit.org/";
   var assetS3Bucket = "pg-egov-assets";
   var boundaryContext = "boundary-service/boundary-relationships/_search?";
-  var hierarchyType = "hierarchyType=ADMIN";
+  var hierarchyType = "WORKBENCH";
   var getConfig = function (key) {
     if (key === "STATE_LEVEL_TENANT_ID") {
       return stateTenantId;
