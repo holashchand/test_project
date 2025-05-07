@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "author": "Alice",
+    "text": "This article provides a thorough overview of the topic. I especially liked how the author broke down complex ideas into simpler parts. It made it easy for readers from different backgrounds to understand the material clearly. The use of real-world examples was a great touch.",
+    "replies": [
+      {
+        "id": 2,
+        "author": "Bob",
+        "text": "I agree with you, Alice. The explanations were spot-on, and I appreciated the tone the author used throughout. It was professional without being overly academic. I also found the structure of the article very intuitive.",
+        "replies": [
+          {
+            "id": 3,
+            "author": "Charlie",
+            "text": "While the tone and structure were good, I felt like some points were only briefly touched on. The author could have gone deeper into the technical implications of the new data. That would’ve added even more value.",
+            "replies": [
+              {
+                "id": 4,
+                "author": "Dana",
+                "text": "I noticed that too. There was a section that mentioned the recent updates, but it didn’t explore them thoroughly. Maybe it was due to space limitations or an editorial decision. Still, more context would’ve been helpful.",
+                "replies": [
+                  {
+                    "id": 5,
+                    "author": "Eve",
+                    "text": "Exactly. The conclusion in particular felt rushed compared to the rest of the piece. It would’ve been better if the author had tied back to the opening more clearly and added a short section summarizing key takeaways.",
+                    "replies": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "author": "Frank",
+    "text": "There were a few factual inconsistencies in the second section. For instance, the report cited statistics from 2021 as if they were current. It’s a small issue, but it affects the credibility of the rest of the analysis, especially for professionals in the field.",
+    "replies": [
+      {
+        "id": 7,
+        "author": "Grace",
+        "text": "Good catch, Frank. That slipped past me on the first read. I think it’s important that articles like this go through a more thorough fact-checking process before being published. Otherwise, even good content loses trust.",
+        "replies": [
+          {
+            "id": 8,
+            "author": "Heidi",
+            "text": "I reached out to the editorial team last time something similar happened. They were responsive and made an update within a week. Hopefully, that happens here too. At the very least, a small correction note should be added.",
+            "replies": [
+              {
+                "id": 9,
+                "author": "Ivan",
+                "text": "That’s reassuring to hear, Heidi. Transparency is key when it comes to digital publications. Even when mistakes happen, readers appreciate when authors or editors own them and take quick action to correct the record.",
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
